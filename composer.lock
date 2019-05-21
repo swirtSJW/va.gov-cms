@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6366adeaf1c238aa5a34a9835adcea5a",
+    "content-hash": "8a70a9ccf3f71728ecdd7bc3c000c640",
     "packages": [
         {
             "name": "acquia/headless_lightning",
@@ -2595,16 +2595,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.6.10",
+            "version": "8.6.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "59568ac02948cf075ee8543e6c6d4386ad8daec1"
+                "reference": "a9c4c97c7da9ec1a38782912bb06784d28590539"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/59568ac02948cf075ee8543e6c6d4386ad8daec1",
-                "reference": "59568ac02948cf075ee8543e6c6d4386ad8daec1",
+                "url": "https://api.github.com/repos/drupal/core/zipball/a9c4c97c7da9ec1a38782912bb06784d28590539",
+                "reference": "a9c4c97c7da9ec1a38782912bb06784d28590539",
                 "shasum": ""
             },
             "require": {
@@ -2635,9 +2635,9 @@
                 "symfony-cmf/routing": "^1.4",
                 "symfony/class-loader": "~3.4.0",
                 "symfony/console": "~3.4.0",
-                "symfony/dependency-injection": "~3.4.0",
+                "symfony/dependency-injection": "~3.4.26",
                 "symfony/event-dispatcher": "~3.4.0",
-                "symfony/http-foundation": "~3.4.14",
+                "symfony/http-foundation": "~3.4.26",
                 "symfony/http-kernel": "~3.4.14",
                 "symfony/polyfill-iconv": "^1.0",
                 "symfony/process": "~3.4.0",
@@ -2647,8 +2647,8 @@
                 "symfony/translation": "~3.4.0",
                 "symfony/validator": "~3.4.0",
                 "symfony/yaml": "~3.4.5",
-                "twig/twig": "^1.35.0",
-                "typo3/phar-stream-wrapper": "^2.0.1",
+                "twig/twig": "^1.38.2",
+                "typo3/phar-stream-wrapper": "^2.1.1",
                 "zendframework/zend-diactoros": "^1.1",
                 "zendframework/zend-feed": "^2.4"
             },
@@ -2813,6 +2813,7 @@
                     "3032548 - ContentModerationRouteSubscriber assumes all parameters in an entity form route contain a 'type' key": "https://www.drupal.org/files/issues/2019-02-13/3032548-2.patch",
                     "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
                     "2885441 - EntityReferenceAutocompleteWidget should define its size setting as an integer": "https://www.drupal.org/files/issues/2885441-2.patch",
+                    "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2019-02-26/2815221-115-8.6.x.patch",
                     "1356276 - Allow profiles to define a base/parent profile and load them in the correct order": "https://www.drupal.org/files/issues/2018-10-12/1356276-531.patch",
                     "2914389 - Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch"
                 }
@@ -2838,7 +2839,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2019-02-20T18:35:01+00:00"
+            "time": "2019-05-08T16:00:58+00:00"
         },
         {
             "name": "drupal/crop",
@@ -4771,18 +4772,24 @@
         },
         {
             "name": "drupal/lightning_core",
-            "version": "dev-3.x",
+            "version": "3.11.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/lightning_core.git",
-                "reference": "22e9816c700ea29143b09dc74b07aa015daa6ec6"
+                "reference": "8.x-3.11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/lightning_core-8.x-3.11.zip",
+                "reference": "8.x-3.11",
+                "shasum": "5622d2160fb038d64d87dbdc6084de9f5fd3a578"
             },
             "require": {
                 "cweagans/composer-patches": "^1.6.4",
                 "drupal-composer/drupal-scaffold": "^2.0.0",
                 "drupal/acquia_connector": "^1.1",
                 "drupal/contact_storage": "^1.0",
-                "drupal/core": "~8.6.0",
+                "drupal/core": "~8.6.16",
                 "drupal/metatag": "^1.8",
                 "drupal/pathauto": "^1.3",
                 "drupal/search_api": "^1.0",
@@ -4807,11 +4814,11 @@
                     "dev-8.x-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.11+3-dev",
-                    "datestamp": "1558026185",
+                    "version": "8.x-3.11",
+                    "datestamp": "1557341581",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Dev releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 },
                 "drush": {
@@ -4903,8 +4910,7 @@
             "homepage": "https://www.drupal.org/project/lightning_core",
             "support": {
                 "source": "https://git.drupalcode.org/project/lightning_core"
-            },
-            "time": "2019-05-16T17:04:20+00:00"
+            }
         },
         {
             "name": "drupal/lightning_layout",
@@ -7418,17 +7424,17 @@
         },
         {
             "name": "drupal/role_delegation",
-            "version": "1.0.0-alpha3",
+            "version": "1.0.0-beta1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/role_delegation.git",
-                "reference": "8.x-1.0-alpha3"
+                "reference": "8.x-1.0-beta1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/role_delegation-8.x-1.0-alpha3.zip",
-                "reference": "8.x-1.0-alpha3",
-                "shasum": "e80f20b518c5f24b33e26efe918f8fdc4a2c016d"
+                "url": "https://ftp.drupal.org/files/projects/role_delegation-8.x-1.0-beta1.zip",
+                "reference": "8.x-1.0-beta1",
+                "shasum": "8b4ca97076323d67f16d308ab426ebe1f7f79a45"
             },
             "require": {
                 "drupal/core": "*"
@@ -7439,11 +7445,11 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-alpha3",
-                    "datestamp": "1556911981",
+                    "version": "8.x-1.0-beta1",
+                    "datestamp": "1558337885",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Alpha releases are not covered by Drupal security advisories."
+                        "message": "Beta releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -7856,17 +7862,17 @@
         },
         {
             "name": "drupal/simple_oauth",
-            "version": "3.15.0",
+            "version": "3.16.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/simple_oauth.git",
-                "reference": "8.x-3.15"
+                "reference": "8.x-3.16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/simple_oauth-8.x-3.15.zip",
-                "reference": "8.x-3.15",
-                "shasum": "2fb00dc960270cddb9403073f5165f9155304c89"
+                "url": "https://ftp.drupal.org/files/projects/simple_oauth-8.x-3.16.zip",
+                "reference": "8.x-3.16",
+                "shasum": "46fee2fe6b3c53a481eeeecdc4ff466f79e486a2"
             },
             "require": {
                 "drupal/consumers": "^1.2",
@@ -7879,11 +7885,16 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.15",
-                    "datestamp": "1556659981",
+                    "version": "8.x-3.16",
+                    "datestamp": "1558127887",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9"
                     }
                 }
             },
@@ -7910,7 +7921,7 @@
         },
         {
             "name": "drupal/simple_oauth_extras",
-            "version": "3.15.0",
+            "version": "3.16.0",
             "require": {
                 "drupal/core": "~8.0",
                 "drupal/simple_oauth": "self.version"
@@ -7921,8 +7932,8 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.15",
-                    "datestamp": "1556659981",
+                    "version": "8.x-3.16",
+                    "datestamp": "1558127887",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -13201,16 +13212,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.37.1",
+            "version": "v1.41.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "66be9366c76cbf23e82e7171d47cbfa54a057a62"
+                "reference": "575cd5028362da591facde1ef5d7b94553c375c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/66be9366c76cbf23e82e7171d47cbfa54a057a62",
-                "reference": "66be9366c76cbf23e82e7171d47cbfa54a057a62",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/575cd5028362da591facde1ef5d7b94553c375c9",
+                "reference": "575cd5028362da591facde1ef5d7b94553c375c9",
                 "shasum": ""
             },
             "require": {
@@ -13225,7 +13236,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.37-dev"
+                    "dev-master": "1.41-dev"
                 }
             },
             "autoload": {
@@ -13263,7 +13274,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2019-01-14T14:59:29+00:00"
+            "time": "2019-05-14T11:59:08+00:00"
         },
         {
             "name": "typo3/phar-stream-wrapper",

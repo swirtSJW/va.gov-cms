@@ -14,7 +14,8 @@
     "require": {
         "drupal-composer/drupal-scaffold": "^2.0.0",
         "cweagans/composer-patches": "^1.6.0",
-        "acquia/headless_lightning": "^1.4.0-beta2",
+        "acquia/headless_lightning": "^1.4.0-beta6",
+        "drupal/core": "^8.6.16",
         "drupal/components": "^1.0",
         "drupal/uswds": "^1.0@beta",
         "drupal/ui_patterns": "^1.0",
@@ -62,7 +63,6 @@
         "drupal/environment_indicator": "^3.5",
         "drupal/fast_404": "^1.0@alpha",
         "drupal/config_split": "^1.4",
-        "twig/twig": "1.37.1",
         "drupal/node_revisions_autoclean": "^1.0@beta",
         "drupal/views_bulk_operations": "^2.5",
         "drupal/health_check_url": "^2.1",
