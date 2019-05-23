@@ -1,0 +1,4 @@
+tests/phpunit: phpunit . --group security
+tests/behat:
+  - cd tests/behat
+  - behat
