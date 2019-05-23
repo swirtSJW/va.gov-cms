@@ -1,4 +1,6 @@
-tests/phpunit: phpunit . --group security
+tests/phpunit:
+  description: Run PHPUnit Tests
+  command: phpunit . --group security
 tests/behat:
   - cd tests/behat
   - behat
