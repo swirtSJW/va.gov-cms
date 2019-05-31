@@ -60,14 +60,14 @@ Apply patches:
   * example" https://patch-diff.githubusercontent.com/raw/drupal-graphql/graphql/pull/726.patch
   * for Github, you can usually type in `.patch` at the end of the PR url to get the patch file
   * some people use github, some use drupal.org. drupal is moving to gitlab
-* In the "`patches`" property of `composer.json`, make an entry for the package you are patching, if not already there, write an explanation lando sync-dbas to what the patch does, and then put the url to the patch 
+* In the "`patches`" property of `composer.json`, make an entry for the package you are patching, if not already there, write an explanation to what the patch does, and then put the URL to the patch.
   * ex:
   * ```
     "patches": {
                    "drupal/migration_tools": {
                        "Add changeHtmlContents DomModifier method": "https://www.drupal.org/files/issues/2018-11-26/change_html_contents-3015381-3.patch",
     ```
-* Run `lando composer update <source>/<package>`
+* Run `lando composer update <source>/<package>` so that the hash in composer.lock changes and invalidates our custom, global composer cache mechanism.
   * `lando composer update drupal/graphql`
 
 groups include
