@@ -13,7 +13,7 @@ bundle: health_care_local_facility
 label: Owner
 description: 'The health care system that manages this local facility.'
 required: true
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

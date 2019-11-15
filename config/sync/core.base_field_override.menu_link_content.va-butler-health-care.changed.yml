@@ -1,0 +1,18 @@
+uuid: d8f07e75-d59b-4ad8-8a43-ca33c2492941
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.va-butler-health-care
+id: menu_link_content.va-butler-health-care.changed
+field_name: changed
+entity_type: menu_link_content
+bundle: va-butler-health-care
+label: Changed
+description: 'The time that the menu link was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

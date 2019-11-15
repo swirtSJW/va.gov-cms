@@ -1,0 +1,22 @@
+uuid: 3bcb1115-cc59-4562-87dd-61c497c91b13
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.type_of_redirect
+id: taxonomy_term.type_of_redirect.status
+field_name: status
+entity_type: taxonomy_term
+bundle: type_of_redirect
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

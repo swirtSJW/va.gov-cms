@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_form_mode.media.media_browser
     - field.field.media.image.field_media_in_library
+    - field.field.media.image.field_media_submission_guideline
     - field.field.media.image.field_owner
     - field.field.media.image.image
     - image.style.2_1_medium_thumbnail
@@ -36,6 +37,13 @@ content:
         remove_button: true
         file_links: false
     region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
   name:
     type: string_textfield
     weight: 0

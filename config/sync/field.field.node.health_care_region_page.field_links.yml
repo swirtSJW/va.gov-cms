@@ -14,7 +14,7 @@ bundle: health_care_region_page
 label: 'Email lists'
 description: 'Add a URL and Link text for as many email subscriptions you want to display. These are typically govdelivery.com email links, and are displayed with an email icon. '
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

@@ -37,6 +37,7 @@ hidden:
   field_administration: true
   field_regional_health_service: true
   label: true
+  langcode: true
   links: true
   search_api_excerpt: true
   status: true

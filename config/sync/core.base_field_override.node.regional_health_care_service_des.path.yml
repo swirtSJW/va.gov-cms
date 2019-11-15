@@ -1,0 +1,20 @@
+uuid: 72463dfb-e270-4595-b2ce-42b8cb2369ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.regional_health_care_service_des
+  module:
+    - path
+id: node.regional_health_care_service_des.path
+field_name: path
+entity_type: node
+bundle: regional_health_care_service_des
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

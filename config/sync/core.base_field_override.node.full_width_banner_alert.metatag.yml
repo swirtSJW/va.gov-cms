@@ -1,0 +1,18 @@
+uuid: 9fd4ed1e-b366-44c1-bbd2-6469b700ed87
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.full_width_banner_alert
+id: node.full_width_banner_alert.metatag
+field_name: metatag
+entity_type: node
+bundle: full_width_banner_alert
+label: Metatags
+description: 'The meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

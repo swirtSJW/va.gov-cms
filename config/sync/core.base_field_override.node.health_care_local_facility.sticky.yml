@@ -1,0 +1,22 @@
+uuid: 15d03d7f-91fa-4e5c-8d12-49ffbca6900d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.health_care_local_facility
+id: node.health_care_local_facility.sticky
+field_name: sticky
+entity_type: node
+bundle: health_care_local_facility
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

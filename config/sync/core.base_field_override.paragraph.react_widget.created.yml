@@ -1,0 +1,18 @@
+uuid: 109e51e3-984c-4aa3-8d92-d8d743f14d40
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.react_widget
+id: paragraph.react_widget.created
+field_name: created
+entity_type: paragraph
+bundle: react_widget
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

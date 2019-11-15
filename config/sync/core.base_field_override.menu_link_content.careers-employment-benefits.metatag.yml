@@ -1,0 +1,18 @@
+uuid: 1aec64a0-1a31-4f10-90dc-af69397a001e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.careers-employment-benefits
+id: menu_link_content.careers-employment-benefits.metatag
+field_name: metatag
+entity_type: menu_link_content
+bundle: careers-employment-benefits
+label: Metatags
+description: 'The meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

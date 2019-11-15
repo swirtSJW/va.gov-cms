@@ -1,0 +1,18 @@
+uuid: f5a18859-07ec-410e-a04a-9a555928bd79
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.housing-assistance-benefits
+id: menu_link_content.housing-assistance-benefits.metatag
+field_name: metatag
+entity_type: menu_link_content
+bundle: housing-assistance-benefits
+label: Metatags
+description: 'The meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

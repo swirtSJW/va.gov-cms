@@ -5,6 +5,8 @@ dependencies:
   config:
     - core.entity_view_mode.media.thumbnail
     - field.field.media.image.field_media_in_library
+    - field.field.media.image.field_media_submission_guideline
+    - field.field.media.image.field_owner
     - field.field.media.image.image
     - image.style.medium
     - media.type.image
@@ -29,6 +31,10 @@ content:
 hidden:
   created: true
   field_media_in_library: true
+  field_media_submission_guideline: true
+  field_owner: true
+  langcode: true
   name: true
+  search_api_excerpt: true
   thumbnail: true
   uid: true

@@ -1,0 +1,18 @@
+uuid: dc65669c-8022-49b5-a2e0-d54900f5216a
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.starred_horizontal_rule
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.starred_horizontal_rule
+target_entity_type_id: paragraph
+target_bundle: starred_horizontal_rule
+default_langcode: site_default
+language_alterable: false

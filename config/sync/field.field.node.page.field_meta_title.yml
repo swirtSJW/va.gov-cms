@@ -12,7 +12,7 @@ bundle: page
 label: 'Meta title tag'
 description: '<a href="https://design.va.gov/content-style-guide/seo#meta-properties" target="_blank">Use title case</a>, and include the default " | Veterans Affairs" at the end. This title displays in search results, and as the browser title page (eg, in a browser tab). '
 required: true
-translatable: false
+translatable: true
 default_value:
   -
     value: ' | Veterans Affairs'

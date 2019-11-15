@@ -1,0 +1,43 @@
+display:
+  default:
+    display_title: Máster
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Aplicar
+          reset_button_label: Restablecer
+          exposed_sorts_label: 'Ordenar por'
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Elementos por página'
+            items_per_page_options_all_label: '- Todo -'
+            offset_label: Desplazamiento
+          tags:
+            previous: ‹‹
+            next: ››
+            first: '« Primero'
+            last: 'Último »'
+      fields:
+        title:
+          label: Título
+          separator: ', '
+        moderation_state:
+          separator: ', '
+        status:
+          label: Publicado
+          separator: ', '
+      filters:
+        title:
+          expose:
+            label: Título
+        type:
+          expose:
+            label: 'Tipo de contenido'
+          group_info:
+            label: 'Tipo de contenido'
+        status:
+          expose:
+            label: Publicado

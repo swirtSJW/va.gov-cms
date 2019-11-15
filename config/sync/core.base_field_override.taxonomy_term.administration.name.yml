@@ -1,0 +1,18 @@
+uuid: 1142a32c-1fcc-4d3f-bbab-f56b9b152e61
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.administration
+id: taxonomy_term.administration.name
+field_name: name
+entity_type: taxonomy_term
+bundle: administration
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,22 @@
+uuid: c978771f-af9c-486f-8368-2af75f57ce52
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.administration
+id: taxonomy_term.administration.status
+field_name: status
+entity_type: taxonomy_term
+bundle: administration
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -12,7 +12,7 @@ bundle: health_care_region_page
 label: 'Intro text'
 description: ''
 required: true
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

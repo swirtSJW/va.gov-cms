@@ -1,0 +1,18 @@
+uuid: 110fb819-78f3-401b-9fb2-2c6214aab7e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.va-coatesville-health-care
+id: menu_link_content.va-coatesville-health-care.changed
+field_name: changed
+entity_type: menu_link_content
+bundle: va-coatesville-health-care
+label: Changed
+description: 'The time that the menu link was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

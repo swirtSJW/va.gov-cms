@@ -1,0 +1,18 @@
+uuid: 82cc3a26-10b2-4d6f-bb7f-5e208a471fe1
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.homepage-top-tasks-blocks
+id: menu_link_content.homepage-top-tasks-blocks.title
+field_name: title
+entity_type: menu_link_content
+bundle: homepage-top-tasks-blocks
+label: 'Menu link title'
+description: 'The text to be used for this link in the menu.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

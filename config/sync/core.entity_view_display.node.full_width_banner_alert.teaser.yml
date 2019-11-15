@@ -4,6 +4,18 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.full_width_banner_alert.field_administration
+    - field.field.node.full_width_banner_alert.field_alert_dismissable
+    - field.field.node.full_width_banner_alert.field_alert_email_updates_button
+    - field.field.node.full_width_banner_alert.field_alert_find_facilities_cta
+    - field.field.node.full_width_banner_alert.field_alert_inheritance_subpages
+    - field.field.node.full_width_banner_alert.field_alert_operating_status_cta
+    - field.field.node.full_width_banner_alert.field_alert_type
+    - field.field.node.full_width_banner_alert.field_banner_alert_situationinfo
+    - field.field.node.full_width_banner_alert.field_banner_alert_vamcs
+    - field.field.node.full_width_banner_alert.field_body
+    - field.field.node.full_width_banner_alert.field_operating_status_sendemail
+    - field.field.node.full_width_banner_alert.field_situation_updates
     - node.type.full_width_banner_alert
   module:
     - user
@@ -18,6 +30,7 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  content_moderation_control: true
   field_administration: true
   field_alert_dismissable: true
   field_alert_email_updates_button: true
@@ -30,4 +43,5 @@ hidden:
   field_body: true
   field_operating_status_sendemail: true
   field_situation_updates: true
+  langcode: true
   search_api_excerpt: true

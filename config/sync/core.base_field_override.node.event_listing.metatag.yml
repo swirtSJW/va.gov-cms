@@ -1,0 +1,18 @@
+uuid: b7f829ae-fdf1-4de7-a284-caa10d2df3ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.event_listing
+id: node.event_listing.metatag
+field_name: metatag
+entity_type: node
+bundle: event_listing
+label: Metatags
+description: 'The meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

@@ -396,5 +396,6 @@ content:
 hidden:
   field_email_subscription: true
   field_meta_tags: true
+  langcode: true
   links: true
   search_api_excerpt: true

@@ -1,0 +1,18 @@
+uuid: ca2ee461-faf7-4c2a-8435-9f01b8c73c99
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.pittsburgh-health-care
+id: menu_link_content.pittsburgh-health-care.view_mode
+field_name: view_mode
+entity_type: menu_link_content
+bundle: pittsburgh-health-care
+label: 'View mode'
+description: 'Per item view mode selector.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
