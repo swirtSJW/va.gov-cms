@@ -13,7 +13,7 @@ bundle: event
 label: Owner
 description: 'Department or program at VA that is managing this event.'
 required: true
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

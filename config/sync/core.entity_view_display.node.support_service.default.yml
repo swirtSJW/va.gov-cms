@@ -47,5 +47,6 @@ hidden:
   field_administration: true
   field_office: true
   field_page_last_built: true
+  langcode: true
   links: true
   search_api_excerpt: true

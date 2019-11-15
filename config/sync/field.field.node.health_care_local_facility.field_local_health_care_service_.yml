@@ -13,7 +13,7 @@ bundle: health_care_local_facility
 label: 'Local health care service offerings'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

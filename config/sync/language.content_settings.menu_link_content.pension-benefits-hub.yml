@@ -1,0 +1,18 @@
+uuid: 5f99e897-ef63-4d89-a776-7d415d077ae8
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.pension-benefits-hub
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: menu_link_content.pension-benefits-hub
+target_entity_type_id: menu_link_content
+target_bundle: pension-benefits-hub
+default_langcode: site_default
+language_alterable: true

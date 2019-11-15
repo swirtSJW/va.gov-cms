@@ -14,7 +14,7 @@ bundle: press_release
 label: Location
 description: 'This is displayed at the start of the press release. '
 required: true
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

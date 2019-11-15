@@ -1,0 +1,18 @@
+uuid: 1b52086a-ca76-47f6-afe1-35a352421061
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.starred_horizontal_rule
+id: paragraph.starred_horizontal_rule.created
+field_name: created
+entity_type: paragraph
+bundle: starred_horizontal_rule
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

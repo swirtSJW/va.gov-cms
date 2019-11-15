@@ -1,0 +1,18 @@
+uuid: d32140c3-448c-49a9-a406-86e28e1806d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.careers-employment-benefits
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: menu_link_content.careers-employment-benefits
+target_entity_type_id: menu_link_content
+target_bundle: careers-employment-benefits
+default_langcode: site_default
+language_alterable: false

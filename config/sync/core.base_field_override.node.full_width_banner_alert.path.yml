@@ -1,0 +1,20 @@
+uuid: 52a06591-23f7-4681-b817-4de3197e281e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.full_width_banner_alert
+  module:
+    - path
+id: node.full_width_banner_alert.path
+field_name: path
+entity_type: node
+bundle: full_width_banner_alert
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

@@ -1,0 +1,18 @@
+uuid: 78ce276f-f7d2-407d-abce-23aa6041adf4
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.documentation_page
+id: node.documentation_page.title
+field_name: title
+entity_type: node
+bundle: documentation_page
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

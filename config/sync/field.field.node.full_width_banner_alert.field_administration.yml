@@ -15,7 +15,7 @@ bundle: full_width_banner_alert
 label: Owner
 description: ''
 required: true
-translatable: true
+translatable: false
 default_value:
   -
     target_uuid: 87832236-1e54-4ce3-8141-8dec27c8a9a7

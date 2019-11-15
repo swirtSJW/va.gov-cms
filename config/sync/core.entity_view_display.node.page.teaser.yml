@@ -4,8 +4,17 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.page.field_administration
+    - field.field.node.page.field_alert
     - field.field.node.page.field_content_block
+    - field.field.node.page.field_description
+    - field.field.node.page.field_featured_content
+    - field.field.node.page.field_intro_text
     - field.field.node.page.field_meta_tags
+    - field.field.node.page.field_meta_title
+    - field.field.node.page.field_page_last_built
+    - field.field.node.page.field_plainlanguage_date
+    - field.field.node.page.field_related_links
     - node.type.page
   module:
     - user
@@ -21,7 +30,17 @@ content:
     region: content
 hidden:
   content_moderation_control: true
+  field_administration: true
+  field_alert: true
   field_content_block: true
+  field_description: true
+  field_featured_content: true
   field_intro_text: true
   field_meta_tags: true
+  field_meta_title: true
+  field_page_last_built: true
+  field_plainlanguage_date: true
+  field_related_links: true
+  langcode: true
   panelizer: true
+  search_api_excerpt: true

@@ -1,0 +1,18 @@
+uuid: f138d240-e9c8-4963-8398-df2171ae02b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.va-wilkes-barre-health-care
+id: menu_link_content.va-wilkes-barre-health-care.metatag
+field_name: metatag
+entity_type: menu_link_content
+bundle: va-wilkes-barre-health-care
+label: Metatags
+description: 'The meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

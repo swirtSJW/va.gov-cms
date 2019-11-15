@@ -12,7 +12,7 @@ bundle: person_profile
 label: 'Job Title'
 description: 'Title Case. If the person holds multiple positions, include them all, separated by commas'
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

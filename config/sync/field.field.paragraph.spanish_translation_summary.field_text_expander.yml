@@ -12,7 +12,7 @@ bundle: spanish_translation_summary
 label: 'Instructions for obtaining more information in Spanish'
 description: 'A short sentence that suggests more Spanish-language content is available upon click.   "Obtenga instruccions para esta solicitud en Español."'
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

@@ -1,0 +1,18 @@
+uuid: 1599693d-a4d3-4ffd-8a9d-0fc51a29a07b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.event_listing
+id: node.event_listing.created
+field_name: created
+entity_type: node
+bundle: event_listing
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

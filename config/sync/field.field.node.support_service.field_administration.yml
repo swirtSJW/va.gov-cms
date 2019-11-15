@@ -15,7 +15,7 @@ bundle: support_service
 label: Owner
 description: 'The VA office or program that owns this content.'
 required: true
-translatable: true
+translatable: false
 default_value:
   -
     target_uuid: 1d2fb45c-58b4-409b-9fef-24d15a56aba7

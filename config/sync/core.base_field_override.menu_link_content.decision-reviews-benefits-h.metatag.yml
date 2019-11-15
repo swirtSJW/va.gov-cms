@@ -1,0 +1,18 @@
+uuid: 6b8894b6-1004-42de-a9ad-da27ca6e5bf8
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.decision-reviews-benefits-h
+id: menu_link_content.decision-reviews-benefits-h.metatag
+field_name: metatag
+entity_type: menu_link_content
+bundle: decision-reviews-benefits-h
+label: Metatags
+description: 'The meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

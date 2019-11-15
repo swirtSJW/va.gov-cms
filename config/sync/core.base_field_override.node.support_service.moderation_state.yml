@@ -1,0 +1,18 @@
+uuid: fd459329-acb7-4ca5-bc08-9e5e37812005
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.support_service
+id: node.support_service.moderation_state
+field_name: moderation_state
+entity_type: node
+bundle: support_service
+label: 'Moderation state'
+description: 'The moderation state of this piece of content.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

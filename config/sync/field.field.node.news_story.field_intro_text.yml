@@ -12,7 +12,7 @@ bundle: news_story
 label: 'Intro text'
 description: "<p>The first sentence (\"lede\") is displayed more prominently (<a href=\"#\">see screenshot</a>). It is also displayed in the teaser view of each story.</p>\r\n\r\n<p>This should serve as a summary or lead-in to the rest of the story.</p>\r\n\r\n<p><em>Maximum characters: 300</em></p>"
 required: true
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

@@ -35,5 +35,6 @@ hidden:
   content_moderation_control: true
   field_administration: true
   field_regional_health_service: true
+  langcode: true
   links: true
   search_api_excerpt: true

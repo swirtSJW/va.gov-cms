@@ -13,7 +13,7 @@ bundle: press_release
 label: Owner
 description: 'The VA office or program that owns this content.'
 required: true
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

@@ -1,0 +1,18 @@
+uuid: 5ae3f3de-9c0e-4623-8f74-cf211ac0020d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.life-insurance-benefits-hub
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: menu_link_content.life-insurance-benefits-hub
+target_entity_type_id: menu_link_content
+target_bundle: life-insurance-benefits-hub
+default_langcode: site_default
+language_alterable: false

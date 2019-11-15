@@ -13,7 +13,7 @@ bundle: image
 label: Owner
 description: 'Only members of the section you select here will be able to make changes to this image.'
 required: true
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

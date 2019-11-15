@@ -46,6 +46,13 @@ content:
     settings:
       placeholder: ''
     third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
   revision_log:
     type: hide_revision_field_log_widget
     weight: 5

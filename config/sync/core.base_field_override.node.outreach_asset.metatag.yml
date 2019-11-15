@@ -1,0 +1,18 @@
+uuid: a0514806-cf03-416e-95ac-a470a079bf7e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.outreach_asset
+id: node.outreach_asset.metatag
+field_name: metatag
+entity_type: node
+bundle: outreach_asset
+label: Metatags
+description: 'The meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

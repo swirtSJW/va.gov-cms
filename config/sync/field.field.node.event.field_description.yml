@@ -12,7 +12,7 @@ bundle: event
 label: 'A brief (ideally one sentence) summary of the event'
 description: 'This gives the user an overview of the event in teaser views (like calendars or sidebar lists), and when the event is shared on social media.'
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

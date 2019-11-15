@@ -1,0 +1,18 @@
+uuid: 1db23f68-366c-4a25-b091-bd6577664d5e
+langcode: es
+status: true
+dependencies:
+  config:
+    - system.menu.pension-benefits-hub
+id: menu_link_content.pension-benefits-hub.title
+field_name: title
+entity_type: menu_link_content
+bundle: pension-benefits-hub
+label: 'Menu link title'
+description: 'The text to be used for this link in the menu.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

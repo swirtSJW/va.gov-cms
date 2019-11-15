@@ -8,8 +8,8 @@ dependencies:
     - field.field.paragraph.collapsible_panel_item.field_wysiwyg
     - paragraphs.paragraphs_type.collapsible_panel_item
   module:
-    - textfield_counter
     - paragraphs
+    - textfield_counter
 id: paragraph.collapsible_panel_item.default
 targetEntityType: paragraph
 bundle: collapsible_panel_item

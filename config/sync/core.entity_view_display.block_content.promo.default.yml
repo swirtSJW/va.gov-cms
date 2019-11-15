@@ -44,4 +44,5 @@ content:
 hidden:
   content_moderation_control: true
   field_instructions: true
+  langcode: true
   search_api_excerpt: true

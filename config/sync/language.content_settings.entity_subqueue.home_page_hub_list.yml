@@ -1,0 +1,11 @@
+uuid: a70f5b78-741a-4ec5-823c-a641d0a091b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - entityqueue.entity_queue.home_page_hub_list
+id: entity_subqueue.home_page_hub_list
+target_entity_type_id: entity_subqueue
+target_bundle: home_page_hub_list
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,18 @@
+uuid: 4e476f76-4cad-4d20-bff0-5cc5c38b7ac8
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.type_of_redirect
+id: taxonomy_term.type_of_redirect.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: type_of_redirect
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

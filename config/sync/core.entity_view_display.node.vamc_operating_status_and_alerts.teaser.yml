@@ -4,6 +4,13 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.vamc_operating_status_and_alerts.field_administration
+    - field.field.node.vamc_operating_status_and_alerts.field_banner_alert
+    - field.field.node.vamc_operating_status_and_alerts.field_facility_operating_status
+    - field.field.node.vamc_operating_status_and_alerts.field_links
+    - field.field.node.vamc_operating_status_and_alerts.field_meta_tags
+    - field.field.node.vamc_operating_status_and_alerts.field_office
+    - field.field.node.vamc_operating_status_and_alerts.field_operating_status_emerg_inf
     - node.type.vamc_operating_status_and_alerts
   module:
     - user
@@ -18,6 +25,7 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  content_moderation_control: true
   field_administration: true
   field_banner_alert: true
   field_facility_operating_status: true
@@ -25,4 +33,5 @@ hidden:
   field_meta_tags: true
   field_office: true
   field_operating_status_emerg_inf: true
+  langcode: true
   search_api_excerpt: true

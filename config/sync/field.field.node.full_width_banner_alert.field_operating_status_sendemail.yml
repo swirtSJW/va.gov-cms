@@ -12,7 +12,7 @@ bundle: full_width_banner_alert
 label: 'Send email to subscribers via GovDelivery?'
 description: "When this is checked, any update to the banner alert content (the title or body field) will trigger an email to all subscribers of the VAMC's emergency updates email list. \r\n"
 required: false
-translatable: true
+translatable: false
 default_value:
   -
     value: 0

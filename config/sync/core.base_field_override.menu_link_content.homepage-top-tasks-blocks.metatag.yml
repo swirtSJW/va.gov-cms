@@ -1,0 +1,18 @@
+uuid: 5c2684f5-07dc-4121-99d1-5261f9ba9054
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.homepage-top-tasks-blocks
+id: menu_link_content.homepage-top-tasks-blocks.metatag
+field_name: metatag
+entity_type: menu_link_content
+bundle: homepage-top-tasks-blocks
+label: Metatags
+description: 'The meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

@@ -1,0 +1,18 @@
+uuid: 0a9235ca-4078-43ea-9294-74a2456475bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.health_care_local_health_service
+id: node.health_care_local_health_service.created
+field_name: created
+entity_type: node
+bundle: health_care_local_health_service
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created
