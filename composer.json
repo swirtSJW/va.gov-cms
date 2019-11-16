@@ -219,7 +219,8 @@
                 "Fix php warning when creating new items": "https://www.drupal.org/files/issues/updateLink-2775665-2.patch"
             },
             "drupal/paragraphs_browser": {
-                "Extend from ParagraphsWidget instead of InlineParagraphsWidget": "https://www.drupal.org/files/issues/2019-01-22/paragraphs_browser-extend-from-ParagraphsWidget-2917656-14_0.patch"
+                "Extend from ParagraphsWidget instead of InlineParagraphsWidget": "https://www.drupal.org/files/issues/2019-01-22/paragraphs_browser-extend-from-ParagraphsWidget-2917656-14_0.patch",
+                "Paragraphs Browser & Translation: Don't show add paragraphs-Button on translated nodes": "https://www.drupal.org/files/issues/2019-07-17/paragraphs_browser-hide_add_button_on_translation-3048773-4-D8.patch"
             },
             "drupal/password_policy": {
                 "Use core temp store.": "https://www.drupal.org/files/issues/2019-03-04/password_policy-use-core-temp-store-3032549-3.patch",
