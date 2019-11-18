@@ -80,22 +80,20 @@ display:
           summary: ''
           description: ''
           columns:
-            node_bulk_form: node_bulk_form
             title: title
-            type: type
-            name: name
-            status: status
-            changed: changed
+            nid: nid
             edit_node: edit_node
-            delete_node: delete_node
-            dropbutton: dropbutton
+            type: type
+            changed: changed
+            moderation_state: moderation_state
+            field_administration: field_administration
+            name: name
             timestamp: title
+            break: break
+            is_locked: is_locked
+            translation_link: translation_link
+            langcode: langcode
           info:
-            node_bulk_form:
-              align: ''
-              separator: ''
-              empty_column: false
-              responsive: ''
             title:
               sortable: true
               default_sort_order: asc
@@ -103,21 +101,21 @@ display:
               separator: ''
               empty_column: false
               responsive: ''
-            type:
-              sortable: true
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: false
-              responsive: ''
-            name:
+            nid:
               sortable: false
               default_sort_order: asc
               align: ''
               separator: ''
               empty_column: false
-              responsive: priority-low
-            status:
+              responsive: ''
+            edit_node:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            type:
               sortable: true
               default_sort_order: asc
               align: ''
@@ -131,31 +129,59 @@ display:
               separator: ''
               empty_column: false
               responsive: priority-low
-            edit_node:
+            moderation_state:
               sortable: false
               default_sort_order: asc
               align: ''
               separator: ''
               empty_column: false
               responsive: ''
-            delete_node:
+            field_administration:
               sortable: false
               default_sort_order: asc
               align: ''
               separator: ''
               empty_column: false
               responsive: ''
-            dropbutton:
+            name:
               sortable: false
               default_sort_order: asc
               align: ''
               separator: ''
               empty_column: false
-              responsive: ''
+              responsive: priority-low
             timestamp:
               sortable: false
               default_sort_order: asc
               align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            break:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            is_locked:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            translation_link:
+              sortable: false
+              default_sort_order: asc
+              align: ''
+              separator: ''
+              empty_column: false
+              responsive: ''
+            langcode:
+              sortable: false
+              default_sort_order: asc
+              align: views-align-center
               separator: ''
               empty_column: false
               responsive: ''
@@ -550,8 +576,8 @@ display:
           label: ''
           exclude: true
           alter:
-            alter_text: false
-            text: ''
+            alter_text: true
+            text: '<a href="/node/{{ nid }}/translations" class="button">Translate</a>'
             make_link: false
             path: ''
             absolute: false
@@ -1600,8 +1626,8 @@ display:
           label: ''
           exclude: true
           alter:
-            alter_text: false
-            text: ''
+            alter_text: true
+            text: '<a href="/node/{{ nid }}/translations" class="button">Translate</a>'
             make_link: false
             path: ''
             absolute: false
