@@ -5,6 +5,7 @@ dependencies:
   config:
     - views.view.right_sidebar_latest_revision
   module:
+    - ctools
     - system
     - views
   theme:
@@ -29,3 +30,10 @@ visibility:
     pages: "/node/*/edit\r\n/node/*/history\r\n/node/*/delete\r\n/node/*/clone\r\n/node/*/moderation-history\r\n/node/*/translations\r\n"
     negate: true
     context_mapping: {  }
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      documentation_page: documentation_page
+    negate: true
+    context_mapping:
+      node: '@node.node_route_context:node'
