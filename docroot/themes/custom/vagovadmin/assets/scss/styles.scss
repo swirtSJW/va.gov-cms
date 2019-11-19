@@ -76,8 +76,14 @@
 
 /* Right sidebar on node view pages. */
 
-.view-id-right_sidebar_latest_revision .views-row {
-  padding-bottom: 1em;
+.view-id-right_sidebar_latest_revision {
+  .translate-button {
+    padding-top: 1em;
+  }
+
+  .views-row {
+    padding-bottom: 1em;
+  }
 }
 
 /* Admin menus with route:<nolink> links should look OK */
