@@ -715,7 +715,7 @@
             "version": "3.4.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:jquery/jquery-dist.git",
+                "url": "https://github.com/jquery/jquery-dist.git",
                 "reference": "15bc73803f76bc53b654b9fdbbbc096f56d7c03d"
             },
             "dist": {
@@ -733,7 +733,7 @@
             "version": "v1.8.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:kenwheeler/slick.git",
+                "url": "https://github.com/kenwheeler/slick.git",
                 "reference": "0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee"
             },
             "dist": {
@@ -1691,6 +1691,7 @@
             ],
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
+            "abandoned": "psr/container",
             "time": "2017-02-14T19:40:03+00:00"
         },
         {
@@ -3073,7 +3074,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.4",
-                    "datestamp": "1536585481",
+                    "datestamp": "1575119887",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3750,7 +3751,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.9",
-                    "datestamp": "1549832280",
+                    "datestamp": "1574140673",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3882,16 +3883,16 @@
             ],
             "authors": [
                 {
-                    "name": "Joseph Zhao",
-                    "homepage": "https://www.drupal.org/user/1987218"
-                },
-                {
                     "name": "chr.fritsch",
                     "homepage": "https://www.drupal.org/user/2103716"
                 },
                 {
                     "name": "ergonlogic",
                     "homepage": "https://www.drupal.org/user/368613"
+                },
+                {
+                    "name": "pandaski",
+                    "homepage": "https://www.drupal.org/user/1987218"
                 }
             ],
             "description": "Prevents multiple users from trying to edit a content entity simultaneously to prevent edit conflicts.",
@@ -5690,8 +5691,8 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.0-rc1+19-dev",
-                    "datestamp": "1572476880",
+                    "version": "8.x-3.0-rc1+20-dev",
+                    "datestamp": "1573591272",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -6907,7 +6908,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.12",
-                    "datestamp": "1561582986",
+                    "datestamp": "1573669686",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -7056,7 +7057,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.10",
-                    "datestamp": "1568317385",
+                    "datestamp": "1573662484",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -7898,7 +7899,7 @@
                 },
                 "drupal": {
                     "version": "8.x-4.4",
-                    "datestamp": "1570477985",
+                    "datestamp": "1574693285",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -7960,7 +7961,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.1",
-                    "datestamp": "1571175786",
+                    "datestamp": "1574306290",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -9793,7 +9794,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.2",
-                    "datestamp": "1559917500",
+                    "datestamp": "1575044885",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -16576,16 +16577,16 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v3.4.32",
+            "version": "v3.4.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "2b6a666d6ff7fb65d10b97d817c8e7930944afb9"
+                "reference": "290ae21279b37bfd287cdcce640d51204e84afdf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/2b6a666d6ff7fb65d10b97d817c8e7930944afb9",
-                "reference": "2b6a666d6ff7fb65d10b97d817c8e7930944afb9",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/290ae21279b37bfd287cdcce640d51204e84afdf",
+                "reference": "290ae21279b37bfd287cdcce640d51204e84afdf",
                 "shasum": ""
             },
             "require": {
@@ -16621,7 +16622,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2019-09-01T21:32:23+00:00"
+            "time": "2019-11-17T21:55:15+00:00"
         },
         {
             "name": "symfony/http-foundation",
@@ -18346,18 +18347,18 @@
                 "shasum": ""
             },
             "require": {
-                "behat/mink": "^1.7",
+                "behat/mink": "1.8.0 | 1.7.1 | 1.7.x-dev",
                 "behat/mink-goutte-driver": "^1.2",
-                "php": ">=7.0.0",
-                "phpunit/phpunit": "^5.7|^6.5",
+                "php": ">=7.0.8",
+                "phpunit/phpunit": "^6.5 || ^7",
                 "webflo/drupal-finder": "^1.1"
             },
             "require-dev": {
-                "behat/mink-selenium2-driver": "1.3.x-dev",
+                "behat/mink-selenium2-driver": "1.4.0 | 1.3.1 | 1.3.x-dev",
                 "composer/installers": "^1.2",
                 "dmore/chrome-mink-driver": "^2.6",
                 "drupal-composer/drupal-scaffold": "2.3.0",
-                "drupal/core": "^8.7@alpha",
+                "drupal/core": "^8.8@alpha",
                 "drush/drush": "^9",
                 "jakub-onderka/php-parallel-lint": "^1.0",
                 "squizlabs/php_codesniffer": "^3.2",
@@ -18778,6 +18779,10 @@
                     "name": "Amine Cherif (macherif)",
                     "homepage": "https://www.drupal.org/u/macherif",
                     "role": "Maintainer"
+                },
+                {
+                    "name": "macherif",
+                    "homepage": "https://www.drupal.org/user/1132022"
                 }
             ],
             "description": "Fields for External Data Source.",
