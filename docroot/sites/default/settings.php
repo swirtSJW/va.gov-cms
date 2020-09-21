@@ -132,8 +132,6 @@ $settings['config_sync_directory'] = '../config/sync';
 
 $env_type = getenv('CMS_ENVIRONMENT_TYPE') ?: 'ci';
 
-$settings['file_public_base_url'] = "{$_SERVER['HTTP_HOST']}/sites/default/files";
-
 $config['govdelivery_bulletins.settings']['govdelivery_endpoint'] = getenv('CMS_GOVDELIVERY_ENDPOINT') ?: FALSE;
 $config['govdelivery_bulletins.settings']['govdelivery_username'] = getenv('CMS_GOVDELIVERY_USERNAME') ?: FALSE;
 $config['govdelivery_bulletins.settings']['govdelivery_password'] = getenv('CMS_GOVDELIVERY_PASSWORD') ?: FALSE;
@@ -185,6 +183,17 @@ if (file_exists($app_root . '/' . $site_path . '/settings/settings.fast_404.php'
 if (file_exists($app_root . '/' . $site_path . '/settings/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings/settings.local.php';
 }
+
+if (PHP_SAPI === 'cli') {
+  // This is running from drush so set the webhost.
+  $webhost = $webhost_on_cli;
+}
+else {
+  //This is running from a web request.
+  $webhost = "{$_SERVER['REQUEST_SCHEME']}://{$_SERVER['HTTP_HOST']}";
+
+}
+ $settings['file_public_base_url'] = "{$webhost}/sites/default/files";
 
 $settings['tome_content_directory'] = 'public://cms-export-content';
 $settings['tome_files_directory'] = 'public://cms-export-files';
